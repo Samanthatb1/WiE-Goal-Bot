@@ -1,6 +1,6 @@
 import os
 import discord
-from keep_alive import keep_alive
+from keepAlive import keep_alive
 
 # Import Files
 from functions.utils import get_quote, show_commands, contains_number, does_user_exist
