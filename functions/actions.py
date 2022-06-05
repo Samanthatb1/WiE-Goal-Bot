@@ -9,7 +9,7 @@ import datetime
 import classDefn
 
 # mongo db connection
-cluster = MongoClient('mongodb+srv://samanthatb1:{}@cluster0.exbe3.mongodb.net/?retryWrites=true&w=majority'.format(os.environ['MONGO_PASS']))
+cluster = MongoClient('mongodb+srv://username:{}@cluster0.exbe3.mongodb.net/?retryWrites=true&w=majority'.format(os.environ['MONGO_PASS']))
 database = cluster["WiEDiscord"]
 collection = database["goals"]
 
