@@ -25,10 +25,7 @@ async def show_commands(goalInput):
 
 # number check
 def contains_number(value):
-    for character in value:
-        if character.isdigit():
-            return True
-    return False
+  return any(character.isdigit() for character in value)
 
 # user exists check
 async def does_user_exist(goalInput):
