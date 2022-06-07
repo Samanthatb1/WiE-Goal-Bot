@@ -3,8 +3,8 @@ import discord
 from keepAlive import keep_alive
 
 # Import Files
-from functions.utils import get_quote, show_commands, contains_number, does_user_exist
-from functions.actions import update_status, view_all, delete_goal, my_goals, insert_goal_to_db
+from functions.utils import *
+from functions.actions import *
 
 # initializations
 client = discord.Client()
